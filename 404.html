@@ -5,7 +5,9 @@
     <meta http-equiv="refresh" content="0; url=./index.html">
     <script>
       var path = window.location.pathname;
-      var newUrl = window.location.origin + path;
+      console.log("path: " + path);
+      var newUrl = window.location.origin + '/sy-portfolio' + path;
+      console.log("new: " + newUrl);
       window.location.replace(newUrl);
     </script>
   </head>
