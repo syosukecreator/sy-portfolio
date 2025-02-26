@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+header {
+  background-color: #d7003a;
+}
+
 table {
   border: #333 solid 1px;
   border-collapse: collapse;

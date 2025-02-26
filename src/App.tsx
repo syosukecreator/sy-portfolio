@@ -9,12 +9,14 @@ import Contact from "./components/Contact";
 const App = () => {
   return (
     <BrowserRouter basename="/sy-portfolio">
-      <div>
+      <header>
         <nav>
           <Link to="">Home</Link> / <Link to="/profile">Profile</Link> /{" "}
           <Link to="/work">Work</Link> / <Link to="/skills">Skills</Link> /{" "}
           <Link to="/contact">Contact</Link>
         </nav>
+      </header>
+      <div>
         <Routes>
           <Route path="" element={<Home />} />
           <Route path="/profile" element={<Profile />} />
