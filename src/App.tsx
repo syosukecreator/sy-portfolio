@@ -11,12 +11,12 @@ const App = () => {
     <BrowserRouter basename="/sy-portfolio">
       <header>
         <nav>
-          <Link to="">Home</Link> / <Link to="/profile">Profile</Link> /{" "}
-          <Link to="/work">Work</Link> / <Link to="/skills">Skills</Link> /{" "}
+          <Link to="">Home</Link> | <Link to="/profile">Profile</Link> |{" "}
+          <Link to="/work">Work</Link> | <Link to="/skills">Skills</Link> |{" "}
           <Link to="/contact">Contact</Link>
         </nav>
       </header>
-      <div>
+      <main>
         <Routes>
           <Route path="" element={<Home />} />
           <Route path="/profile" element={<Profile />} />
@@ -24,7 +24,7 @@ const App = () => {
           <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </div>
+      </main>
     </BrowserRouter>
   );
 };
