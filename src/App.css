@@ -17,10 +17,22 @@ header {
 
 main {
   margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 50rem;
+}
+
+footer {
+  background-color: rgb(215, 0, 58, 0.8); /* #DF3361 */
+  color: white;
+  padding: 1rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 nav a {
-  color: #fff;
+  color: white;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
@@ -39,7 +51,8 @@ td {
 }
 
 th {
-  background-color: #DF3361;
+  background-color: #df3361;
+  color: white;
   border: #333 solid 1px;
   border-collapse: collapse;
   padding: 10px;

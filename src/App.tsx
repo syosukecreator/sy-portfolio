@@ -25,6 +25,10 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
+      <footer>
+        <p>Contact: syosukecreator@gmail.com</p>
+        <p>Credit: https://www.flaticon.com/</p>
+      </footer>
     </BrowserRouter>
   );
 };
