@@ -11,6 +11,7 @@ const timelineElements = [
     title: "美少女ゲーム",
     description: "Unity・C#",
     color: "#bd196a",
+    icon: "🎮",
   },
   {
     id: "nft-game",
@@ -18,6 +19,7 @@ const timelineElements = [
     title: "NFTゲーム",
     description: "Unity・C#",
     color: "#bd196a",
+    icon: "🎮",
   },
   {
     id: "tower-defense-game",
@@ -25,6 +27,7 @@ const timelineElements = [
     title: "RPGゲーム",
     description: "Unity・C#",
     color: "#bd196a",
+    icon: "🎮",
   },
   {
     id: "meta-verse-shopping-mall-app",
@@ -32,6 +35,7 @@ const timelineElements = [
     title: "メタバースショッピングモールアプリ",
     description: "Unity・C#",
     color: "#2f4858",
+    icon: "🛒",
   },
   {
     id: "rithm-action-rpg-game",
@@ -39,6 +43,7 @@ const timelineElements = [
     title: "リズムアクションRPGゲーム",
     description: "Unity・C#",
     color: "#bd196a",
+    icon: "🎮",
   },
   {
     id: "tower-defense-game",
@@ -46,6 +51,7 @@ const timelineElements = [
     title: "タワーディフェンスゲーム",
     description: "Unity・C#",
     color: "#bd196a",
+    icon: "🎮",
   },
   {
     id: "electricity-company",
@@ -53,6 +59,7 @@ const timelineElements = [
     title: "電⼒会社⽤Webアプリ",
     description: "Eclipse・Java",
     color: "#594a89",
+    icon: "⚡",
   },
   {
     id: "girl-game",
@@ -60,6 +67,7 @@ const timelineElements = [
     title: "美少女育成ゲーム",
     description: "Unity・C#",
     color: "#bd196a",
+    icon: "🎮",
   },
   {
     id: "snowboard-game",
@@ -67,6 +75,7 @@ const timelineElements = [
     title: "スノーボードゲーム",
     description: "Unity・C#・Android Studio",
     color: "#bd196a",
+    icon: "🎮",
   },
 ];
 
@@ -91,7 +100,7 @@ const Work = () => {
                 height: "100%",
               }}
             >
-              🌟
+              {element.icon}
             </span>
           }
         >
