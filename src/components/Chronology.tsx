@@ -79,7 +79,7 @@ const timelineElements = [
   },
 ];
 
-const Work = () => {
+const Chronology = () => {
   return (
     <VerticalTimeline lineColor="#ddd">
       {timelineElements.map((element) => (
@@ -117,4 +117,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Chronology;

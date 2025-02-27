@@ -2,11 +2,11 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
 header {
   background-color: rgb(215, 0, 58, 0.8); /* #DF3361 */
+  text-align: center;
   position: fixed;
   padding: 1rem;
   top: 0;
