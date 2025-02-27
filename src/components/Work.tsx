@@ -10,7 +10,7 @@ const timelineElements = [
     date: "2024/06〜2025/01",
     title: "美少女ゲーム",
     description: "Unity・C#",
-    color: "#bd196a",
+    color: "#ffe3e8",
     icon: "🎮",
   },
   {
@@ -18,7 +18,7 @@ const timelineElements = [
     date: "2022/08〜2023/11",
     title: "NFTゲーム",
     description: "Unity・C#",
-    color: "#bd196a",
+    color: "#ffe3e8",
     icon: "🎮",
   },
   {
@@ -26,7 +26,7 @@ const timelineElements = [
     date: "2020/03〜2021/07",
     title: "RPGゲーム",
     description: "Unity・C#",
-    color: "#bd196a",
+    color: "#ffe3e8",
     icon: "🎮",
   },
   {
@@ -34,7 +34,7 @@ const timelineElements = [
     date: "2021/07〜2022/03",
     title: "メタバースショッピングモールアプリ",
     description: "Unity・C#",
-    color: "#2f4858",
+    color: "#E8FFE3",
     icon: "🛒",
   },
   {
@@ -42,7 +42,7 @@ const timelineElements = [
     date: "2018/02〜2020/03",
     title: "リズムアクションRPGゲーム",
     description: "Unity・C#",
-    color: "#bd196a",
+    color: "#ffe3e8",
     icon: "🎮",
   },
   {
@@ -50,7 +50,7 @@ const timelineElements = [
     date: "2016/04〜2018/01",
     title: "タワーディフェンスゲーム",
     description: "Unity・C#",
-    color: "#bd196a",
+    color: "#ffe3e8",
     icon: "🎮",
   },
   {
@@ -58,7 +58,7 @@ const timelineElements = [
     date: "2014/11〜2015/08",
     title: "電⼒会社⽤Webアプリ",
     description: "Eclipse・Java",
-    color: "#594a89",
+    color: "#E3E8FF",
     icon: "⚡",
   },
   {
@@ -66,7 +66,7 @@ const timelineElements = [
     date: "2014/07〜2014/11",
     title: "美少女育成ゲーム",
     description: "Unity・C#",
-    color: "#bd196a",
+    color: "#ffe3e8",
     icon: "🎮",
   },
   {
@@ -74,7 +74,7 @@ const timelineElements = [
     date: "2014/04〜2014/06",
     title: "スノーボードゲーム",
     description: "Unity・C#・Android Studio",
-    color: "#bd196a",
+    color: "#ffe3e8",
     icon: "🎮",
   },
 ];
@@ -86,7 +86,7 @@ const Work = () => {
         <VerticalTimelineElement
           key={element.id}
           className="vertical-timeline-element--work"
-          contentStyle={{ background: element.color, color: "white" }}
+          contentStyle={{ background: element.color, color: "#333" }}
           contentArrowStyle={{ borderRight: `7px solid ${element.color}` }}
           date={element.date}
           iconStyle={{ background: element.color }}
@@ -106,7 +106,7 @@ const Work = () => {
         >
           <h2
             className="vertical-timeline-element-title"
-            style={{ color: "white" }}
+            style={{ color: "#333" }}
           >
             {element.title}
           </h2>

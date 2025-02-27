@@ -6,7 +6,7 @@
 }
 
 header {
-  background-color: rgb(215, 0, 58, 0.8);
+  background-color: rgb(215, 0, 58, 0.8); /* #DF3361 */
   position: fixed;
   padding: 1rem;
   top: 0;
@@ -16,7 +16,7 @@ header {
 }
 
 main {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 nav a {
@@ -39,7 +39,7 @@ td {
 }
 
 th {
-  background-color: #d7003a;
+  background-color: #DF3361;
   border: #333 solid 1px;
   border-collapse: collapse;
   padding: 10px;
