@@ -1,10 +1,12 @@
+import me from "../../public/me.png";
+
 const Profile = () => {
   return (
     <div>
       <h2>Profile</h2>
       <div style={{ display: "flex", alignItems: "center" }}>
         <img
-          src="public/me.png"
+          src={me}
           alt="自画像"
           style={{ width: "374px", height: "560px" }}
         />

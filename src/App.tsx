@@ -9,13 +9,13 @@ const App = () => {
     <BrowserRouter basename="/sy-portfolio">
       <header>
         <nav>
-          <Link to="/profile">Profile</Link> | <Link to="/chronology">Chronology</Link> |{" "}
+          <Link to="/">Profile</Link> | <Link to="/chronology">Chronology</Link> |{" "}
           <Link to="/skills">Skills</Link>
         </nav>
       </header>
       <main>
         <Routes>
-          <Route path="/profile" element={<Profile />} />
+          <Route path="/" element={<Profile />} />
           <Route path="/chronology" element={<Chronology />} />
           <Route path="/skills" element={<Skills />} />
         </Routes>
