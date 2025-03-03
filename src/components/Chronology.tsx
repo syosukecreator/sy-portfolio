@@ -19,7 +19,7 @@ const timelineElements = [
     id: "girl-game",
     date: "2024/06〜2025/01",
     title: "美少女ゲーム開発",
-    description: "Unity・C#",
+    description: "今まで培ってきたスキルを活かしゲームを自分で売るチャレンジをしてみる。企画 → リリースまで全て1人で手がけ、無事リリースしDL数300本を記録する。<br>使用ツール：Unity<br>プログラミング言語：C#",
     color: colors.game,
     icon: icons.game,
   },
@@ -27,7 +27,7 @@ const timelineElements = [
     id: "cross-out",
     date: "2023/12",
     title: "クロスゲームズ退社",
-    description: "",
+    description: "事業縮小の為、会社都合退職となる。",
     color: colors.company,
     icon: icons.company,
   },
@@ -35,7 +35,7 @@ const timelineElements = [
     id: "nft-game",
     date: "2022/08〜2023/11",
     title: "NFTゲーム開発",
-    description: "Unity・C#",
+    description: "使用ツール：Cocos Creator<br>プログラミング言語：TypeScript",
     color: colors.game,
     icon: icons.game,
   },
@@ -43,7 +43,7 @@ const timelineElements = [
     id: "cross-in",
     date: "2022/08",
     title: "クロスゲームズ入社",
-    description: "",
+    description: "ゲームを開発している会社に入社する。",
     color: colors.company,
     icon: icons.company,
   },
@@ -51,15 +51,15 @@ const timelineElements = [
     id: "uzu-out",
     date: "2022/03",
     title: "Uzufactory退社",
-    description: "",
+    description: "給与面で不満があり転職を決意。",
     color: colors.company,
     icon: icons.company,
   },
   {
-    id: "tower-defense-game",
+    id: "rpg-game",
     date: "2020/03〜2021/07",
     title: "RPGゲーム開発",
-    description: "Unity・C#",
+    description: "使用ツール：Cocos Creator<br>プログラミング言語：JavaScript",
     color: colors.game,
     icon: icons.game,
   },
@@ -67,7 +67,7 @@ const timelineElements = [
     id: "meta-verse-shopping-mall-app",
     date: "2021/07〜2022/03",
     title: "メタバースショッピングモールアプリ開発",
-    description: "Unity・C#",
+    description: "使用ツール：Unity・Visual Studio<br>プログラミング言語：C#",
     color: "#E3FFED",
     icon: "🛒",
   },
@@ -75,7 +75,7 @@ const timelineElements = [
     id: "rithm-action-rpg-game",
     date: "2018/02〜2020/03",
     title: "リズムアクションRPGゲーム開発",
-    description: "Unity・C#",
+    description: "使用ツール：Unity・Rider<br>プログラミング言語：C#",
     color: colors.game,
     icon: icons.game,
   },
@@ -83,7 +83,7 @@ const timelineElements = [
     id: "tower-defense-game",
     date: "2016/04〜2018/01",
     title: "タワーディフェンスゲーム開発",
-    description: "Unity・C#",
+    description: "使用ツール：Unity・Visual Studio<br>プログラミング言語：C#",
     color: colors.game,
     icon: icons.game,
   },
@@ -91,7 +91,7 @@ const timelineElements = [
     id: "uzu-in",
     date: "2016/04",
     title: "Uzufactory入社",
-    description: "",
+    description: "福岡で療養後、ゲームを開発している会社に入社する。",
     color: colors.company,
     icon: icons.company,
   },
@@ -99,7 +99,8 @@ const timelineElements = [
     id: "serette-out",
     date: "2015/08",
     title: "セレッテ退社",
-    description: "",
+    description:
+      "深夜残業など労働環境が期待と異なる部分があり、体調面も悪化したため退職する。",
     color: colors.company,
     icon: icons.company,
   },
@@ -107,7 +108,8 @@ const timelineElements = [
     id: "electricity-company",
     date: "2014/11〜2015/08",
     title: "電⼒会社⽤Webアプリ開発",
-    description: "Eclipse・Java",
+    description:
+      "チーム規模：大規模(約300⼈)<br>使用ツール：Eclipse<br>プログラミング言語：Java",
     color: "#FFFEE3",
     icon: "⚡",
   },
@@ -115,7 +117,8 @@ const timelineElements = [
     id: "girl-game",
     date: "2014/07〜2014/11",
     title: "美少女育成ゲーム開発",
-    description: "Unity・C#",
+    description:
+      "使用ツール：Unity・MonoDevelop<br>プログラミング言語：C#・Ruby<br>フレームワーク：Ruby on Rails",
     color: colors.game,
     icon: icons.game,
   },
@@ -123,7 +126,8 @@ const timelineElements = [
     id: "snowboard-game",
     date: "2014/04〜2014/06",
     title: "スノーボードゲーム開発",
-    description: "Unity・C#・Android Studio",
+    description:
+      "スマホミニゲームの改修を担当。<br>チーム規模：小規模(5人)<br>使用ツール：Unity・MonoDevelop・Android Studio<br>プログラミング言語：C#",
     color: colors.game,
     icon: icons.game,
   },
@@ -131,15 +135,44 @@ const timelineElements = [
     id: "serette-in",
     date: "2014/04",
     title: "セレッテ入社",
-    description: "新卒入社",
+    description:
+      "ゲーム開発者になりたかったので、自社ゲームを制作してGoogle Playにリリースしている東京の会社を見つけ入社する。ひとり暮らしを始める。",
     color: colors.company,
     icon: icons.company,
+  },
+  {
+    id: "kcs",
+    date: "2011/04～2014/03",
+    title: "KCS福岡情報専⾨学校在学",
+    description:
+      "大学に落ち意気消沈している頃、プログラミングの専門学校がある事を知り元々パソコンが好きでゲーム作りに興味があったのでゲームクリエイター科に入学。",
+    color: "#EDE3FF",
+    icon: "🏫",
+  },
+  {
+    id: "ronin",
+    date: "2009/04～2011/03",
+    title: "浪人時代",
+    description:
+      "九州大学を目指し2年浪人するが、勉強の努力実らず二次試験に落ち玉砕。",
+    color: "#EDE3FF",
+    icon: "🏫",
+  },
+  {
+    id: "seinan",
+    date: "2006～2009",
+    title: "⻄南学院⾼等学校",
+    description:
+      "小中学校まで学年トップ程度の成績があった為、県内の進学校へ入学。しかしFPSゲームとゲーム内MOD制作に没頭し危うく留年しかかる。先生方の慈悲もあって何とか卒業する。",
+    color: "#EDE3FF",
+    icon: "🏫",
   },
   {
     id: "birth",
     date: "1990/07",
     title: "生誕",
-    description: "この世に生まれる",
+    description:
+      "ごく一般的なサラリーマンの家庭に生まれる。幼少期はラジコンが好きな父の影響を受け、LEGOやミニ四駆などモノ作りをして遊んでいた。",
     color: "#EDE3FF",
     icon: "🎉",
   },
@@ -176,7 +209,7 @@ const Chronology = () => {
           >
             {element.title}
           </h2>
-          <p>{element.description}</p>
+          <p dangerouslySetInnerHTML={{ __html: element.description }} />
         </VerticalTimelineElement>
       ))}
     </VerticalTimeline>
