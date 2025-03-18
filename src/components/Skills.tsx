@@ -1,7 +1,7 @@
 const Skills = () => {
   return (
     <div>
-      <h2>Skills</h2>
+      <h2>スキル</h2>
       <table>
         <tr>
           <th>項目(クリックでroadmap.shへ)</th>
@@ -83,7 +83,10 @@ const Skills = () => {
         </tr>
       </table>
       <p>
-        ※roadmap.shの説明：取り消し線付きグレーの項目：習得済 /
+        スキルの習得状況はroadmap.shで管理しています。見方は以下の通りです。
+      </p>
+      <p>
+        取り消し線付きグレーの項目：習得済 /
         取り消し線付き青の項目：スキップ / 紫の項目：進行中 / その他：未習得
       </p>
     </div>

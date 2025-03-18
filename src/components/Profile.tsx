@@ -1,9 +1,22 @@
 import me from "../../public/me.png";
 
+const my = {
+  birthDate: "1990/07/21",
+};
+
 const Profile = () => {
+  const calculateAge = (birthday: string) => {
+    const birth = new Date(birthday);
+    const now = new Date();
+    const diff = now.getTime() - birth.getTime();
+
+    // ミリ秒 → 年に変換
+    return Math.floor(diff / 1000 / 60 / 60 / 24 / 365);
+  };
+
   return (
     <div>
-      <h2>Profile</h2>
+      <h2>プロフィール</h2>
       <div style={{ display: "flex", alignItems: "center" }}>
         <img
           src={me}
@@ -12,8 +25,8 @@ const Profile = () => {
         />
         <div style={{ marginLeft: "16px" }}>
           <p>
-            こんにちは！長谷川
-            翔亮と申します。年齢は34歳(2025/02現在)で、福岡県出身です。
+            こんにちは！長谷川 翔亮と申します。年齢は
+            {calculateAge(my.birthDate)}歳で、福岡県出身です。
           </p>
           <p>
             ものづくりが好きで少年期ではLEGOやミニ四駆で遊んでおり、学生時代ではFPSゲームのMODを作って遊んでいました。その延長線上でプログラミングとゲーム作りに興味を持ち、プログラマーとゲーム開発者のキャリアを積んできました。
