@@ -21,8 +21,17 @@ const icons = {
 
 const timelineElements = [
   {
+    id: "study-react",
+    date: "2025/01〜",
+    title: "React勉強中",
+    description:
+      "Webアプリに興味を持ち、勉強を始める。Webアプリ開発業界ではReactが流行している事を知り、Reactを勉強中。",
+    color: colors.project,
+    icon: "💻",
+  },
+  {
     id: "girl-game",
-    date: "2024/06〜2025/01",
+    date: "2024/01〜2024/12",
     title: "美少女ゲーム開発",
     description:
       "今まで培ってきたスキルを活かしゲームを自分で売るチャレンジをしてみる。企画 → リリースまで全て1人で手がけ、無事リリースしDL数300本を記録する。<br>使用ツール：Unity<br>プログラミング言語：C#",
