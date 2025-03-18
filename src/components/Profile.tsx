@@ -3,7 +3,7 @@ import me from "../../public/me.png";
 const Profile = () => {
   return (
     <div>
-      <h2>Profile</h2>
+      <h2>プロフィール</h2>
       <div style={{ display: "flex", alignItems: "center" }}>
         <img
           src={me}

@@ -36,7 +36,8 @@ const timelineElements = [
     id: "nft-game",
     date: "2022/08〜2023/11",
     title: "NFTゲーム開発",
-    description: "チーム規模：小規模(10人)<br>使用ツール：Cocos Creator<br>プログラミング言語：TypeScript",
+    description:
+      "すごろくでダンジョンを探索していくゲームのチームリーダーとして工数管理・機能追加を担当する。<br>チーム規模：小規模(10人)<br>使用ツール：Cocos Creator<br>プログラミング言語：TypeScript",
     color: colors.game,
     icon: icons.game,
   },
@@ -60,7 +61,8 @@ const timelineElements = [
     id: "rpg-game",
     date: "2020/03〜2021/07",
     title: "RPGゲーム開発",
-    description: "チーム規模：小規模(15人)<br>使用ツール：Cocos Creator<br>プログラミング言語：JavaScript",
+    description:
+      "キャラごとのスキルを発動し敵を倒しながらステージを進んでいくゲームの機能追加を担当する。<br>チーム規模：小規模(15人)<br>使用ツール：Cocos Creator<br>プログラミング言語：JavaScript",
     color: colors.game,
     icon: icons.game,
   },
@@ -68,7 +70,8 @@ const timelineElements = [
     id: "meta-verse-shopping-mall-app",
     date: "2021/07〜2022/03",
     title: "メタバースショッピングモールアプリ開発",
-    description: "チーム規模：中規模(約30⼈)<br>使用ツール：Unity・Visual Studio<br>プログラミング言語：C#",
+    description:
+      "お店に売っている商品をスマートフォンからでもチェックできるアプリの機能追加を担当する。<br>チーム規模：中規模(約30⼈)<br>使用ツール：Unity・Visual Studio<br>プログラミング言語：C#",
     color: "#E3FFED",
     icon: "🛒",
   },
@@ -76,7 +79,8 @@ const timelineElements = [
     id: "rithm-action-rpg-game",
     date: "2018/02〜2020/03",
     title: "リズムアクションRPGゲーム開発",
-    description: "チーム規模：大規模(約200⼈)<br>使用ツール：Unity・Rider<br>プログラミング言語：C#",
+    description:
+      "美少⼥がダンスしているのを鑑賞しながらリズムゲームができるゲームの機能追加を担当する。<br>チーム規模：大規模(約200⼈)<br>使用ツール：Unity・Rider<br>プログラミング言語：C#",
     color: colors.game,
     icon: icons.game,
   },
@@ -84,7 +88,8 @@ const timelineElements = [
     id: "tower-defense-game",
     date: "2016/04〜2018/01",
     title: "タワーディフェンスゲーム開発",
-    description: "チーム規模：中規模(約30⼈)<br>使用ツール：Unity・Visual Studio<br>プログラミング言語：C#",
+    description:
+      "クラッシュ‧オブ‧クランにインスピレーションを得たタワーディフェンスゲームの機能追加を担当する。<br>チーム規模：中規模(約30⼈)<br>使用ツール：Unity・Visual Studio<br>プログラミング言語：C#",
     color: colors.game,
     icon: icons.game,
   },
@@ -110,7 +115,7 @@ const timelineElements = [
     date: "2014/11〜2015/08",
     title: "電⼒会社⽤Webアプリ開発",
     description:
-      "チーム規模：大規模(約300⼈)<br>使用ツール：Eclipse<br>プログラミング言語：Java",
+      "電⼒会社の料⾦計算Webアプリケーションで機能追加を担当する。<br>チーム規模：大規模(約300⼈)<br>使用ツール：Eclipse<br>プログラミング言語：Java",
     color: "#FFFEE3",
     icon: "⚡",
   },
@@ -119,7 +124,7 @@ const timelineElements = [
     date: "2014/07〜2014/11",
     title: "美少女育成ゲーム開発",
     description:
-      "スマホゲームの機能調整・リリース作業を担当する。<br>チーム規模：小規模(2人)<br>担当範囲：フロントエンド<br>使用ツール：Unity・MonoDevelop<br>プログラミング言語：C#・Ruby<br>フレームワーク：Ruby on Rails",
+      "美少⼥の服を着せ替えたりして愛でるゲームの機能調整・リリース作業を担当する。<br>チーム規模：小規模(2人)<br>担当範囲：フロントエンド<br>使用ツール：Unity・MonoDevelop<br>プログラミング言語：C#・Ruby<br>フレームワーク：Ruby on Rails",
     color: colors.game,
     icon: icons.game,
   },
@@ -128,7 +133,7 @@ const timelineElements = [
     date: "2014/04〜2014/06",
     title: "スノーボードゲーム開発",
     description:
-      "スマホミニゲームのバグ修正や広告機能追加・アイテム追加等の改修を担当する。<br>チーム規模：小規模(5人)<br>担当範囲：フロントエンド<br>使用ツール：Unity・MonoDevelop・Android Studio<br>プログラミング言語：C#",
+      "スノーボードで雪⼭を滑り降りながらアイテムを取ってハイスコアを⽬指すミニゲームの運⽤保守を担当。バグ修正や広告機能追加・アイテム追加等の改修を担当する。<br>チーム規模：小規模(5人)<br>担当範囲：フロントエンド<br>使用ツール：Unity・MonoDevelop・Android Studio<br>プログラミング言語：C#",
     color: colors.game,
     icon: icons.game,
   },
@@ -181,39 +186,42 @@ const timelineElements = [
 
 const Chronology = () => {
   return (
-    <VerticalTimeline lineColor="#ddd">
-      {timelineElements.map((element) => (
-        <VerticalTimelineElement
-          key={element.id}
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: element.color, color: "#333" }}
-          contentArrowStyle={{ borderRight: `7px solid ${element.color}` }}
-          date={element.date}
-          iconStyle={{ background: element.color }}
-          icon={
-            <span
-              style={{
-                fontSize: "32px",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height: "100%",
-              }}
-            >
-              {element.icon}
-            </span>
-          }
-        >
-          <h2
-            className="vertical-timeline-element-title"
-            style={{ color: "#333" }}
+    <div>
+      <h2>年表</h2>
+      <VerticalTimeline lineColor="#ddd">
+        {timelineElements.map((element) => (
+          <VerticalTimelineElement
+            key={element.id}
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: element.color, color: "#333" }}
+            contentArrowStyle={{ borderRight: `7px solid ${element.color}` }}
+            date={element.date}
+            iconStyle={{ background: element.color }}
+            icon={
+              <span
+                style={{
+                  fontSize: "32px",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  height: "100%",
+                }}
+              >
+                {element.icon}
+              </span>
+            }
           >
-            {element.title}
-          </h2>
-          <p dangerouslySetInnerHTML={{ __html: element.description }} />
-        </VerticalTimelineElement>
-      ))}
-    </VerticalTimeline>
+            <h2
+              className="vertical-timeline-element-title"
+              style={{ color: "#333" }}
+            >
+              {element.title}
+            </h2>
+            <p dangerouslySetInnerHTML={{ __html: element.description }} />
+          </VerticalTimelineElement>
+        ))}
+      </VerticalTimeline>
+    </div>
   );
 };
 

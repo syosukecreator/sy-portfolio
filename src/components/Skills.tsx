@@ -1,7 +1,7 @@
 const Skills = () => {
   return (
     <div>
-      <h2>Skills</h2>
+      <h2>スキル</h2>
       <table>
         <tr>
           <th>項目(クリックでroadmap.shへ)</th>
