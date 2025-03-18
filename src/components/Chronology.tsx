@@ -5,13 +5,18 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 const colors = {
-  game: "#ffe3e8",
-  company: "#E3F0FF",
+  project: "#FFE3E8",
+  company: "#E8F8FF",
+  school: "#F0E8FF",
+  birth: "#FFF9CF",
+  etc: "#BBEDC6",
 };
 
 const icons = {
   game: "🎮",
   company: "🏢",
+  school: "🏫",
+  birth: "🎉",
 };
 
 const timelineElements = [
@@ -21,7 +26,7 @@ const timelineElements = [
     title: "美少女ゲーム開発",
     description:
       "今まで培ってきたスキルを活かしゲームを自分で売るチャレンジをしてみる。企画 → リリースまで全て1人で手がけ、無事リリースしDL数300本を記録する。<br>使用ツール：Unity<br>プログラミング言語：C#",
-    color: colors.game,
+    color: colors.project,
     icon: icons.game,
   },
   {
@@ -38,7 +43,7 @@ const timelineElements = [
     title: "NFTゲーム開発",
     description:
       "すごろくでダンジョンを探索していくゲームのチームリーダーとして工数管理・機能追加を担当する。<br>チーム規模：小規模(10人)<br>使用ツール：Cocos Creator<br>プログラミング言語：TypeScript",
-    color: colors.game,
+    color: colors.project,
     icon: icons.game,
   },
   {
@@ -63,7 +68,7 @@ const timelineElements = [
     title: "RPGゲーム開発",
     description:
       "キャラごとのスキルを発動し敵を倒しながらステージを進んでいくゲームの機能追加を担当する。<br>チーム規模：小規模(15人)<br>使用ツール：Cocos Creator<br>プログラミング言語：JavaScript",
-    color: colors.game,
+    color: colors.project,
     icon: icons.game,
   },
   {
@@ -72,7 +77,7 @@ const timelineElements = [
     title: "メタバースショッピングモールアプリ開発",
     description:
       "お店に売っている商品をスマートフォンからでもチェックできるアプリの機能追加を担当する。<br>チーム規模：中規模(約30⼈)<br>使用ツール：Unity・Visual Studio<br>プログラミング言語：C#",
-    color: "#E3FFED",
+    color: colors.project,
     icon: "🛒",
   },
   {
@@ -81,7 +86,7 @@ const timelineElements = [
     title: "リズムアクションRPGゲーム開発",
     description:
       "美少⼥がダンスしているのを鑑賞しながらリズムゲームができるゲームの機能追加を担当する。<br>チーム規模：大規模(約200⼈)<br>使用ツール：Unity・Rider<br>プログラミング言語：C#",
-    color: colors.game,
+    color: colors.project,
     icon: icons.game,
   },
   {
@@ -90,7 +95,7 @@ const timelineElements = [
     title: "タワーディフェンスゲーム開発",
     description:
       "クラッシュ‧オブ‧クランにインスピレーションを得たタワーディフェンスゲームの機能追加を担当する。<br>チーム規模：中規模(約30⼈)<br>使用ツール：Unity・Visual Studio<br>プログラミング言語：C#",
-    color: colors.game,
+    color: colors.project,
     icon: icons.game,
   },
   {
@@ -116,7 +121,7 @@ const timelineElements = [
     title: "電⼒会社⽤Webアプリ開発",
     description:
       "電⼒会社の料⾦計算Webアプリケーションで機能追加を担当する。<br>チーム規模：大規模(約300⼈)<br>使用ツール：Eclipse<br>プログラミング言語：Java",
-    color: "#FFFEE3",
+    color: colors.project,
     icon: "⚡",
   },
   {
@@ -125,7 +130,7 @@ const timelineElements = [
     title: "美少女育成ゲーム開発",
     description:
       "美少⼥の服を着せ替えたりして愛でるゲームの機能調整・リリース作業を担当する。<br>チーム規模：小規模(2人)<br>担当範囲：フロントエンド<br>使用ツール：Unity・MonoDevelop<br>プログラミング言語：C#・Ruby<br>フレームワーク：Ruby on Rails",
-    color: colors.game,
+    color: colors.project,
     icon: icons.game,
   },
   {
@@ -134,7 +139,7 @@ const timelineElements = [
     title: "スノーボードゲーム開発",
     description:
       "スノーボードで雪⼭を滑り降りながらアイテムを取ってハイスコアを⽬指すミニゲームの運⽤保守を担当。バグ修正や広告機能追加・アイテム追加等の改修を担当する。<br>チーム規模：小規模(5人)<br>担当範囲：フロントエンド<br>使用ツール：Unity・MonoDevelop・Android Studio<br>プログラミング言語：C#",
-    color: colors.game,
+    color: colors.project,
     icon: icons.game,
   },
   {
@@ -152,8 +157,8 @@ const timelineElements = [
     title: "KCS福岡情報専⾨学校在学",
     description:
       "大学に落ち意気消沈している頃、プログラミングの専門学校がある事を知り元々パソコンが好きでゲーム作りに興味があったのでゲームクリエイター科に入学。プログラミングとゲーム作りに没頭する。",
-    color: "#EDE3FF",
-    icon: "🏫",
+    color: colors.school,
+    icon: icons.school,
   },
   {
     id: "ronin",
@@ -161,8 +166,8 @@ const timelineElements = [
     title: "浪人時代",
     description:
       "九州大学を目指し2年浪人するが、勉強の努力実らず二次試験に落ち玉砕する。",
-    color: "#EDE3FF",
-    icon: "🏫",
+    color: colors.school,
+    icon: icons.school,
   },
   {
     id: "seinan",
@@ -170,8 +175,8 @@ const timelineElements = [
     title: "⻄南学院⾼等学校",
     description:
       "小中学校と学年上位の成績があった為、県内の進学校へ入学。しかしFPSゲームとゲーム内MOD制作に没頭し危うく留年しそうになる。先生方の慈悲もあって何とか卒業する。",
-    color: "#EDE3FF",
-    icon: "🏫",
+    color: colors.school,
+    icon: icons.school,
   },
   {
     id: "birth",
@@ -179,8 +184,8 @@ const timelineElements = [
     title: "生誕",
     description:
       "ごく一般的なサラリーマンの家庭に生まれる。幼少期はラジコンが好きな父の影響を受け、LEGOやミニ四駆などモノ作りをして遊んでいた。",
-    color: "#EDE3FF",
-    icon: "🎉",
+    color: colors.birth,
+    icon: icons.birth,
   },
 ];
 
