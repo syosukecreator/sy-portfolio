@@ -94,7 +94,7 @@ const timelineElements = [
     date: "2018/02〜2020/03",
     title: "リズムアクションRPGゲーム開発",
     description:
-      "美少⼥がダンスしているのを鑑賞しながらリズムゲームができるゲームの機能追加を担当する。<br>チーム規模：大規模(約200⼈)<br>使用ツール：Unity・Rider<br>プログラミング言語：C#",
+      "美少⼥がダンスしているのを鑑賞しながらリズムゲームができるゲームの機能追加を担当する。<br>チーム規模：大規模(約190⼈)<br>使用ツール：Unity・Rider<br>プログラミング言語：C#",
     color: colors.project,
     icon: icons.game,
   },
@@ -129,7 +129,7 @@ const timelineElements = [
     date: "2014/11〜2015/08",
     title: "電⼒会社⽤Webアプリ開発",
     description:
-      "電⼒会社の料⾦計算Webアプリケーションで機能追加を担当する。<br>チーム規模：大規模(約300⼈)<br>使用ツール：Eclipse<br>プログラミング言語：Java",
+      "電⼒会社の料⾦計算Webアプリケーションで機能追加を担当する。<br>チーム規模：大規模(約500⼈)<br>使用ツール：Eclipse<br>プログラミング言語：Java",
     color: colors.project,
     icon: "⚡",
   },
